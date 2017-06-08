@@ -20,6 +20,7 @@ import time
 
 warnings.filterwarnings("ignore")   
 
+
 #different non-linearities
 def ReLU(x):
     y = T.maximum(0.0, x)
